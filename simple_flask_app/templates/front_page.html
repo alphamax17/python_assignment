@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="../static/src/css/front_end.css">
+</head>
+<body>
+<div>
+    <form method="post" action="/send_data">
+        <div class="form" class="align-items: center">
+            <div class="title">Database Fetcher app</div>
+
+            <div class="input-container ic1">
+                <input id="input_text" name="column_name" class="input" type="text" required placeholder=" "/>
+                <div class="cut"></div>
+                <label for="input_text" class="placeholder">Column to fetch</label>
+            </div>
+            <button class="submit" value="pg" name="postgres">PostgreSql</button>
+            <button class="submit" value="sql" name="sql"> SQL</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>
